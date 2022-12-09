@@ -14,10 +14,11 @@
 </head>
 
 <body>
-    <i id="dropdown-btn" class="fa-solid fa-bars"></i>
+    <label for="btn-nav" class="btn-nav"><i class="fa-solid fa-bars"></i></label>
+    <input type="checkbox" id="btn-nav" checked>
     <header>
         <div class="superior">
-            <div class="logo"></div>
+            <div class="logo"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/W3C_valid.svg/2560px-W3C_valid.svg.png" width="30%"></div>
             <div class="resto">
                 <div class="botones">
                     <div class="boton btn1"><a href="https://www.w3schools.com" target="_blank">Go W3S</a></div>
@@ -39,7 +40,7 @@
     <main>
         <div class="d-grid">
             <div class="row">
-                <div id="menu-lateral-size" class="col-xl-2 col-lg-3 col-md-3">
+                <div  class="collapse show col-xl-2 col-lg-3 col-md-3 col-sm-3" id="menu-lateral-size">
                     <div id="menu-lateral">
                         <ul>
                             <li class="titulos-lateral"><a href="#w3c"> W3C</a></li>
@@ -70,10 +71,201 @@
                     </div>
                 </div>
                 <div class="col-xl-2 col-lg-3 col-md-3"></div>
+                <!-- ....................lessons........................... -->
                 <div class="col-xl-10 col-lg-9 col-md-9 col-sm-12">
                     
+                    <div id="w3c" class="container">
+                        <h2>El Consorcio World Wide Web (W3C)</h2>
+
+                        <p>consorcio internacional en el que las organizaciones miembros, el personal a tiempo completo y el público en general trabajan juntos para desarrollar normas y directrices web diseñadas para garantizar el crecimiento a largo plazo de la web.<p>
+                        <p>El objetivo del W3C es que la Web conecte a la humanidad de manera que el acceso al conocimiento sea más eficiente y equitativo.</p>
+
+                        <p>Fundado en 1994 por el inventor de la Web, Tim Berners-Lee, W3C ha supervisado con éxito procesos de planteamiento de problemas, diseño, creación de consenso y pruebas que han dado como resultado más de 335 normas técnicas que hacen que la Web funcione. Entre los éxitos se encuentran HTML5, XML, CSS y las directrices de accesibilidad a la web.</p>
+
+                        <p>Los Miembros y el personal de W3C, así como sus socios, están creando muchas más tecnologías diseñadas para que todos los usuarios de la Web, desde las personas mayores hasta las generaciones más jóvenes, puedan compartir conocimientos, ampliar el comercio e innovar.</p>
+
+                        <p>El W3C, como organización sin ánimo de lucro, tiene su sede en el Laboratorio de Ciencias de la Computación e Inteligencia Artificial del MIT (MIT CSAIL), en Estados Unidos, en el Consorcio Europeo de Investigación en Informática y Matemáticas (ERCIM), con sede en Francia, en la Universidad de Keio, en Japón, y en la Universidad de Beihang, en China, y y cuenta con y cuenta con otras oficinas en todo el mundo.. Más de 390 organizaciones son miembros del Consorcio. Para más información,<a href="visita http://www.w3.org/"> picha aqui</a></p>   
+                    </div>
+
+                    <div id="principiosypautas" class="container">
+                        <h2>Principios y pautas generales de diseño accesible.</h2>
+
+                        <p>En el nivel más alto se sitúan los cuatro principios que proporcionan los fundamentos de la accesibilidad web: perceptible, operable, comprensible y robusto.</p>
+
+                        <p>Por debajo de los principios están las pautas. Las doce pautas definen cómo crear un contenido web más accesible para personas con discapacidad. La accesibilidad considera un amplio rango de discapacidades, como son las visuales, auditivas, físicas, del habla, cognitivas, relativas al lenguaje, de aprendizaje y neurológicas. Sin embargo, a pesar de que estas pautas cubren un amplio espectro de cuestiones relacionadas, no son capaces de cubrir las necesidades de las personas de todos los tipos, grados y combinaciones de discapacidades.</p>
+
+                        <div id="perceptible">
+                            <p>
+                                <h4>Principio 1. Perceptible:</h4> la información y los componentes de la interfaz de usuario deben ser mostrados a los usuarios en formas que ellos puedan entender.
+
+                                <ul>
+                                    <li>Pauta 1.1: Texto alternativo: Proporciona texto alternativo para el contenido que no sea textual, así podrá ser transformado en otros formatos que la gente necesite, como caracteres grandes, lenguaje braille (braile no es correcto), lenguaje oral, símbolos o lenguaje más simple.</li>
+
+                                    <li>Pauta 1.2: Contenido multimedia dependiente del tiempo: Proporcione alternativas sincronizadas para contenidos multimedia sincronizados dependientes del tiempo.</li>
+
+                                    <li>Pauta 1.3: Adaptable: Crear contenido que pueda ser presentado de diferentes formas sin perder ni información ni estructura.</li>
+                                    
+                                    <li>Pauta 1.4: Distinguible: Facilitar a los usuarios ver y escuchar el contenido incluyendo la distinción entre lo más y menos importante.</li>
+                                </ul>     
+                            </p>
+                        </div>
+                        <div id="operable">
+                            <p>
+                                <h4>Principio 2. Operable:</h4> Los componentes de la interfaz de usuario y la navegación debe ser manejable.
+
+                                <ul>
+                                    <li>Pauta 2.1: Teclado accesible: Poder controlar todas las funciones desde el teclado.</li>
+
+                                    <li>Pauta 2.2 Tiempo suficiente: Proporciona tiempo suficiente a los usuarios para leer y utilizar el contenido.</li>
+
+                                    <li>Pauta 2.3: Ataques epilépticos: No diseñar contenido que pueda causar ataques epilépticos.</li>
+
+                                    <li>Pauta 2.4: Navegación: Proporciona formas para ayudar a los usuarios a navegar, a buscar contenido y a determinar donde están estos.</li>
+                                    
+                                    <li>Pauta 2.5: Modalidades de entrada: Facilitar a los usuarios operar la funcionalidad a través de varios métodos de entrada además del teclado. </li>
+                                </ul>         
+                            </p>
+                        </div>
+                        <div id="comprensible">
+                            <p>
+                                <h4>Principio 3. Comprensible:</h4> La información y las operaciones de usuarios deben ser comprensibles.
+                                    <ul>
+                                        <li>Pauta 3.1: Legible. Hacer contenido de texto legible y comprensible.</li>
+                                        
+                                        <li>Pauta 3.2 Previsible: Hacer la apariencia y la forma de utilizar las páginas web previsibles.</li>
+                                        
+                                        <li>Pauta 3.3 Asistencia a la entrada de datos: los usuarios de ayuda evitarán y corregirán errores.</li>
+                                    </ul>
+                                </p>
+                        </div>
+                        <div id="robustez">
+                            <p>
+                                <h4>Principio 4. Robustez:</h4> el contenido deber ser suficientemente robusto para que pueda ser bien interpretado por una gran variedad de agentes de usuario, incluyendo tecnologías de asistencia.
+                                
+                                    Pauta 4.1 Compatible: Maximiza la compatibilidad con los agentes de usuario actuales y futuros, incluyendo tecnologías de asistencia.
+                            <p>
+                        </div>
+                    </div>
+
+                    <div id="tecnicaswcag" class="container">
+                        <h2>Técnicas para satisfacer los requisitos definidos en las WCAG</h2>
+
+                        <p>
+                            Las técnicas para satisfacer los requisitos definidos en las WCAG están recogidas en la siguiente web: <a href="w3.org/WAI/GL/WCAG20-TECHS/">Techniques for WCAG 2.0</a>
+
+                            Como puedes ver, hay más de 400 técnicas para satisfacer todos los requisitos definidos en las WCAG, a continuación se mencionan las más destacadas:
+                        </p>
+                        <div id="tecnicasfundamentales">
+                            <h3>1. Técnicas Fundamentales</h3>
+                            <p>
+                                <ul>
+                                    <li>Incluir alternativas de texto al contenido multimedia.</li>
+                                    <li>Permitir pausar el contenido multimedia.</li>
+                                    <li>Incluir alternativas legibles cuando la lectura dependa del contraste de colores.</li>
+                                    <li>Ordenación coherente del contenido.</li>
+                                    <li>Incluir glosarios, mapa del sitio, tabla de contenidos.</li>
+                                    <li>Incluir títulos descriptivos.</li>
+                                    <li>Añadir enlaces para ir al principio de la página.</li>
+                                    <li>Identificar la localización del usuario dentro de la web (breadcrumbs).</li>
+                                    <li>Evitar parpadeos.</li>
+                                    <li>Alinear los textos de manera similar.</li>
+                                    <li>Ofrecer feedback de confirmación o negación al realizar una operación, etc.</li>
+                                </ul>
+                            </p>
+                        </div>
+                        <div id="tecnicashtml">
+                            <h3>2. Técnicas HTML</h3>
+                            <p>
+                                <ul>
+                                    <li>Utilizar elemento title para dar un título coherente a la página.</li>
+                                    <li>Incluir la etiqueta meta description.</li>
+                                    <li>Incluir el botón de submit en los formularios.</li>
+                                    <li>Definir el idioma correspondiente con el atributo lang.</li>
+                                    <li>Incluir el atributo alt en las imágenes.</li>
+                                    <li>Utilizar el atributo caption y summary en las tablas.</li>
+                                    <li>Maquetación sin tablas.</li>
+                                    <li>Utilizar los encabezados h1-h6.</li>
+                                    <li>Crear un orden de tabulación coherente en formularios y enlaces.</li>
+                                    <li>Utilizar etiquetas estructurales o elementos semánticos.</li>
+                                </ul>
+                            </p>
+                        </div>
+                        <div id="tecnicascss">
+                            <h3>3. Técnicas CSS</h3>
+                            <p>
+                                <ul>
+                                    <li>Facilitar mecanismos para que se pueda modificar la hoja de estilos CSS: colores, fuentes, etc.</li>
+                                    <li>Separar la estructura de los estilos y no utilizar estilos en línea.</li>
+                                    <li>Utilizar tamaño de letra con medidas relativas: unidades em.</li>
+                                    <li>Incluir el foco en los elementos mediante la clase :focus.</li>
+                                    <li>Utilizar CSS para presentar el texto, controlar el espaciado, etc.</li>
+                                </ul>
+                            </p>
+                        </div>
+                        <div id="javascript">
+                            <h3>4. Técnicas JavaScript</h3>
+                            <p>
+                                <ul>
+                                    <li>Aumentar los tiempos de acción.</li>
+                                    <li>Soporte para utilizar tanto ratón como teclado.</li>
+                                    <li>Validación de datos con alertas.</li>
+                                    <li>Usar el DOM para manipular la página.</li>
+                                    <li>Utilizar scripts para modificar el aspecto de la página, como el fondo.</li>
+                                    <li>Utilizar scripts para hacer scroll por la página y que se pueda controlar.</li>
+                                </ul>
+                            </p>
+                        </div>
+                        <div id="tecnicasparaservidor">
+                            <h3>4. Técnicas para Servidor</h3>
+                            <p>
+                                <ul>
+                                    <li>Aplicar redirecciones en lado del servidor (.htaccess)  y no en el cliente.</li>
+                                </ul>
+                            </p>
+                        </div>
+                        <div id="tecnicaswai-aria">
+                            <h3>4. Técnicas WAI-ARIA</h3>
+                            <p>
+                                Las técnicas <b>WAI-ARIA</b> (Web Accessibility Initiative – Accessible Rich Internet Applications) proporcionan semántica, de tal forma que se pueden transmitir comportamientos de la interfaz de usuario e información estructural a las tecnologías de apoyo (por ejemplo, lectores de pantalla). La especificación de ARIA establece componentes que definen roles, estados y propiedades de los elementos de la interfaz de usuario.
+
+                                Algunas de las técnicas que se especifican consisten en utilizar los atributos que definen los componentes:
+                            </p>
+                            <p>
+                                <ul>
+                                    <li><b>aria-label:</b> etiquetar objetos.</li>
+                                    <li><b>aria-describedly:</b> controles de la interfaz de usuario.</li>
+                                    <li><b>aria-required:</b> campos requeridos.</li>
+                                    <li><b>aria-role:</b> indicar el rol de un control y agrupar los controles de grupos.</li>
+                                    <li><b>state y property</b> para mostrar los estados de los componentes.</li>
+                                    <li><b>aria landmarks</b> para establecer las regiones de una página.</li>
+                                </ul>
+                            </p>
+                        </div>
+                        <div id="otrastecnicas">
+                            <p></p>
+                        </div>
+                    </div>
                     
+                    <div id="herramientasdeanalisis" class="container">
+                        <div id="youtubeclosedcaptioning"></div>
+                        <div id="colorcontrastanalyzer"></div>
+                        <div id="proofsetupinadobe"></div>
+                        <div id="wave"></div>
+                        <div id="nocoffee"></div>
+                        <div id="achecker"></div>
+                        <div id="photosensitiveepilepsyanalysis"></div>
+                        <div id="accessinilitydevelopertools"></div>
+                        <div id="colororacle"></div>
+                    </div>
+
+
+                    
+
+                    
+                
                 </div>
+
+                
             </div>
         </div>
     </main>
